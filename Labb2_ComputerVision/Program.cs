@@ -66,7 +66,7 @@ namespace Labb2_ComputerVision
                 }
 
                 Console.WriteLine("");
-                Console.WriteLine("Do you want to chech another url image ? please enter Y/N");
+                Console.WriteLine("Do you want to check another url image address? please enter Y/N");
                 string checkUrl = Console.ReadLine().ToLower();
                 if (checkUrl == "y") 
                 { input = true; Console.Clear(); }
